@@ -6,6 +6,8 @@ This is a project to demo how to use PEX tool to patch python project into a exe
 2. Install pex tool
 ```
 pip install pex
+
+ pex3 interpreter inspect --markers --tags
 ```
 3. Put all project code in a directory, e.g. in the demo project, it is "src"
 4. Prepare entry function, e.g. in the demo, it is def run() in app.py, and import it in src/__init__.py
