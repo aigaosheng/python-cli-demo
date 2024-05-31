@@ -1,3 +1,14 @@
 setuptools
 fastapi
 requests
+pydantic
+pydantic-core
+markupsafe
+ujson
+orjson
+httptools
+pyyaml
+uvloop
+watchfiles
+websockets
+charset-normalizer

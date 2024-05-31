@@ -12,7 +12,7 @@ pip install pex
 5. Prepare pyproject.toml. MUST: in [project.scripts], set adder = "app:run" (app:run is entry of program)
 6. Run pex to patch (outside src/). server_cli.pex is output executable name (can be any, extention .pex not necessary)
 ```
-pex . -o server_cli.pex -r requirements.txt -D src -c adder
+pex . -o server_cli.pex -r requirements.txt -D src -c adder --complete-platform platform.json
 ```
 7. Test command
 ```
